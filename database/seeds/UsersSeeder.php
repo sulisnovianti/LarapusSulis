@@ -16,13 +16,13 @@ class UsersSeeder extends Seeder
         //membuat role admin
         $adminRole = new Role();
         $adminRole->name = "Admin";
-        $adminRole->display_name = "Admin"
+        $adminRole->display_name = "Admin";
         $adminRole->save();
 
         //membuat role member
         $memberRole = new Role();
         $memberRole->name = "member";
-        $memberRole->display_name = "member"
+        $memberRole->display_name = "member";
         $memberRole->save();
 
         //membuat sample admin
